@@ -15,7 +15,7 @@ namespace ConsoleAppForTesting
             string input = string.Empty;
             while (input != "q")
             {
-                int i = 1.545;
+                int i = 1.5451;
                 Console.WriteLine("Type a number, please");
                 input = Console.ReadLine();
                 if (int.TryParse(input, out int number))
